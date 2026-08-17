@@ -1,0 +1,42 @@
+User-agent: *
+Allow: /
+
+# Служебные / юридические страницы — не индексируем
+Disallow: /shartlar
+Disallow: /maxfiylik
+Disallow: /cookie
+Disallow: /masuliyatli-oyin
+Disallow: /go
+Disallow: /admin/
+Disallow: /private/
+Disallow: /?s=
+
+User-agent: Googlebot
+Allow: /
+Disallow: /shartlar
+Disallow: /maxfiylik
+Disallow: /cookie
+Disallow: /masuliyatli-oyin
+Disallow: /go
+Crawl-delay: 1
+
+User-agent: Bingbot
+Allow: /
+Disallow: /shartlar
+Disallow: /maxfiylik
+Disallow: /cookie
+Disallow: /masuliyatli-oyin
+Disallow: /go
+Crawl-delay: 2
+
+User-agent: Yandex
+Allow: /
+Disallow: /shartlar
+Disallow: /maxfiylik
+Disallow: /cookie
+Disallow: /masuliyatli-oyin
+Disallow: /go
+Crawl-delay: 1
+
+Host: mostbetonlinekirish.com
+Sitemap: https://mostbetonlinekirish.com/sitemap.xml
