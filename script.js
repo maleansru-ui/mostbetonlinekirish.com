@@ -188,7 +188,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
   /* ---------- Партнёрские переходы ---------- */
   /* ЗАМЕНИТЬ ссылку на свою UZ-кампанию из партнёрки */
-  var OFFER = 'https://xtsplkmost.com/8BPU?sub1=mostbetonlinekirish.com';
+  var OFFER = 'https://qydnte.com/8BPU?sub1=mostbetonlinekirish.com';
 
   document.querySelectorAll('a[href="/go"], a[href="/go/"]').forEach(function (link) {
     link.setAttribute('rel', 'nofollow noopener');
